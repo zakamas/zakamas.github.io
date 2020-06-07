@@ -1,0 +1,38 @@
+---
+layout: post
+title: the list of my most favourite .....
+date: 2020-05-05 10:00:00-0000
+description: the list of my most favourite .....
+---
+
+### Books
+
+*   [1984](https://www.goodreads.com/book/show/40961427-1984), George Orwell
+*   [Sapiens: A Brief History of Humankind](https://www.goodreads.com/book/show/23692271-sapiens), Yuval Noah Harari
+*   [Kürk Mantolu Madonna](https://www.goodreads.com/book/show/220826.K_rk_Mantolu_Madonna), Sabahattin Ali
+*   [The Alchemist](https://www.goodreads.com/book/show/865.The_Alchemist), Paulo Coelho
+*   [Alamut](https://www.goodreads.com/book/show/171970.Alamut), Vladimir Bartol
+*   [Kafka on the Shore](https://www.goodreads.com/book/show/4929.Kafka_on_the_Shore), Haruki Murakami
+*   [The Metamorphosis](https://www.goodreads.com/book/show/485894.The_Metamorphosis), Franz Kafka
+*   [Digital Fortress](https://www.goodreads.com/book/show/11125.Digital_Fortress), Dan Brown
+*   [İnsan Olmak](https://www.goodreads.com/book/show/11079931-i-nsan-olmak), Engin Geçtan
+*   [Wild Swans: Three Daughters of China](https://www.goodreads.com/book/show/1848.Wild_Swans), Jung Chang
+
+### Sports
+
+*   Cycling
+*   Tennis
+*   Football
+
+### Cities
+
+1.  Istanbul
+2.  Edinburgh
+
+### Movies & Series
+
+*   [3 Idiots](https://www.imdb.com/title/tt1187043/)
+*   [Vikings](https://www.imdb.com/title/tt2306299/)
+*   [Westworld](https://www.imdb.com/title/tt0475784)
+*   [After Life](https://www.imdb.com/title/tt8398600)
+*   [Black](https://www.imdb.com/title/tt0375611)
