@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: A collection of projects.
 ---
 
 {% for project in site.projects %}
@@ -26,7 +26,7 @@ description: A growing collection of your cool projects.
 </div>
 {% else %}
 
-<div class="project ">
+<!-- <div class="project ">
     <div class="thumbnail">
         <a href="{{ project.url | prepend: site.baseurl | prepend: site.url }}">
         {% if project.img %}
@@ -41,6 +41,29 @@ description: A growing collection of your cool projects.
         </span>
         </a>
     </div>
+</div> -->
+
+
+<div class="card mb-3">
+  <div class="row no-gutters">
+    
+        <div class="col-md-4">
+        {% if project.img %}
+        <img src="{{ project.img | prepend: site.baseurl | prepend: site.url }}" class="card-img" alt="{{ project.title }}">
+        {% else %}
+        <div class="thumbnail blankbox"></div>
+        {% endif %}  
+        
+        </div>
+        <div class="col-md-8">
+        <div class="card-body">
+            <a href="{{ project.url | prepend: site.baseurl | prepend: site.url }}"><h3 class="card-title">{{ project.title }}</h3></a>
+            <p class="card-text">{{ project.description }}</p>
+            <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+        </div>
+        </div>
+    
+  </div>
 </div>
 
 {% endif %}

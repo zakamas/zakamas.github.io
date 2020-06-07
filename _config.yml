@@ -1,17 +1,18 @@
 # -----------------------------------------------------------------------------
 # Site settings
 # -----------------------------------------------------------------------------
-name: Your Name
-email: you@example.com
+name: Zeynel A. Samak
+email: zeynel.samak@bristol.ac.uk
 description: > # this means to ignore newlines until "url:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Zeynel Abidin Samak, PhD, ViLab, University of Bristol
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
+
+#Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 
 url:  # the base hostname & protocol for your site
-baseurl: /al-folio # the subpath of your site, e.g. /blog/
+baseurl:  # the subpath of your site, e.g. /blog/
 last_updated: # leave blank if you don't want to display last updated
 
 # -----------------------------------------------------------------------------
@@ -20,32 +21,33 @@ last_updated: # leave blank if you don't want to display last updated
 # Display links to the page with a preview object on social media.
 # To achieve this, change serve_og_meta to true and then provide the URL of the
 # preview image as the value of og_image.
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
+serve_og_meta: true # Include Open Graph meta tags in the HTML head
 og_image: # The site-wide (default for all links) Open Graph preview image
 # -----------------------------------------------------------------------------
 # Social integration
 # -----------------------------------------------------------------------------
-github_username: # your GitHub user name
-twitter_username: # your Twitter handle
-linkedin_username: # your LinkedIn user name
-scholar_userid: # your Google Scholar ID
-orcid_id: # your ORCID ID
+github_username: zakamas # your GitHub user name
+twitter_username: zasamak # your Twitter handle
+linkedin_username: zasamak # your LinkedIn user name
+scholar_userid: QOrEQ3AAAAAJ # your Google Scholar ID
+orcid_id: 0000-0002-3835-4811 # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
 publons_id: # your ID on Publons
-research_gate_profile: # your profile on ResearchGate
+research_gate_profile: Zeynel_Abidin_Samak # your profile on ResearchGate
 blogger_url: # your blogger URL
+strava_userid: 16259522 # your strava id
 
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  contact me on zeynel[dot]samak[at]bristol[dot]ac[dot]uk.
 
 google_analytics: UA-XXXXXXXXX # out your google-analytics code
 
 # -----------------------------------------------------------------------------
 # Blog
 # -----------------------------------------------------------------------------
-blog_name: al-folio
-blog_description: a simple whitespace theme for academics
+blog_name: MixUp
+blog_description: here and there
 
 # Pagination
 paginate: 4
@@ -58,10 +60,10 @@ text:
     older: 'Older'
 
 # Comments
-disqus_shortname: al-folio # put your disqus shortname
+disqus_shortname: zasamak # put your disqus shortname
 
 # Optional features
-show_social_icons:  false
+show_social_icons:  true
 enable_anchorjs:    false
 enable_katex:       true
 
@@ -102,7 +104,7 @@ plugins:
 # Jekyll-Scholar
 scholar:
 
-  last_name: Einstein
+  last_name: Samak
 
   style: apa
   locale: en
