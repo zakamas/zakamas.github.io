@@ -1,9 +1,0 @@
-
-<div class="news">
-    <h2>Selected Publications</h2> 
-    {% for r in page.selected_papers %}
-  {% bibliography -f papers -q @*[key = {{r}}] %}
-{% endfor %}
-
-<p class="right"><a href="../publications/">all publications >></a></p>
-</div>
