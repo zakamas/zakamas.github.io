@@ -9,10 +9,20 @@
   {% endif %}
 {% endif %}
 
-<div id="{{entry.key}}">
+<div id="{{entry.key}}" class='row bg-light'>
   {% if entry.type == "thesis" %}
     {{reference}}
   {% else %}
+
+  {% if entry.image %}
+  <div class="col-md-3">
+    <img src="{{ entry.image | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}" class="card-img" alt="Thrombectomy" style="object-fit: contain;height: 100px;">
+  </div>
+  <div class="col-md-8">
+    {% else %}
+    <div class="col-md-11">
+    {% endif %}
+
     <span class="title">{{entry.title}}</span>
     <span class="author">
       {% for author in entry.author_array %}
@@ -96,4 +106,5 @@
     <p>{{ entry.abstract }}</p>
   </span>
   {% endif %}
+  </div>
 </div>

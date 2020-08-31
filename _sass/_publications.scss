@@ -10,16 +10,16 @@
     }
 }
 .year {
-    border-top: 1px solid $light-gray;
+    border-bottom: 1px solid $light-gray;
     color: $light-gray;
-    margin: 0 -3em -2.5ex -2em;
+    //margin: 0 -3em -2.5ex -2em;
     padding-top: 1ex;
     text-align: right;
 }
 .bibliography {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     margin-top: 20px;
-    list-style-type: circle;
+    list-style-type: none;
 
     li {
         margin: 10px 0;

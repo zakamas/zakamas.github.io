@@ -16,6 +16,10 @@ layout: default
     {% include news.html %}
   {% endif %}
 
+  {% if page.selected_papers %}
+    {% include selected_papers.html %}
+  {% endif %}
+
   {% if page.social %}
     {% include social.html %}
   {% endif %}
